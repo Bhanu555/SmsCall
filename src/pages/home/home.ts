@@ -13,7 +13,10 @@ this.message = '';
 
   callMe(){
    // let num = "7158213965";
-    window.open("sms:7158213965" + this.message, "_system")
+    window.open("sms:7158213965" + this.message, "_system");
 
-  }
+}
+messageMe(){
+  window.open("sms:9377532367" + this.message, "_system");
+}  
 }
